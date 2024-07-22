@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container h1{
+    color:white;
+}
+
+#total-display{
+    background:linear-gradient(hsla(0, 0%, 0%, 0.396),purple);
+    text-align: left;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#main-display{
+    margin: 0;
+    font-weight: bold;
+}
+
+#add-task{
+
+    font-size: 1.04rem;
+    border-radius:5px;
+    border: none;
+
+
+}
+#add{
+    margin: 0;
+    padding:auto;
+    border-radius:5px;
+    font-size: 1.1rem;
+    background:linear-gradient(hsla(0, 0%, 0%, 0.396),rgb(67, 1, 67));
+    border:none;
+    color: white;
+}
+
+#task-display{
+
+    color: rgba(255, 255, 255, 0.808);
+
+}
+#task-display button{
+    background:linear-gradient(hsla(0, 0%, 0%, 0.396),purple);
+    border-radius: 50%;
+    margin-left: 10px;
+    color:white;
+    border: none;
+}
+
+
+
+
